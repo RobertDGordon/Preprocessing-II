@@ -354,8 +354,10 @@ header div {
   }
 }
 .content-contact {
-  width: 80%;
+  width: 100%;
   margin: 0 auto 30px;
+  padding: 30px;
+  border-top: 2px dashed #C0C0C0;
 }
 .content-contact input[type=text],
 .content-contact select {
