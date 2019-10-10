@@ -1,11 +1,11 @@
 // Mixins in here
-.custom-btn(@bg-color:@button-bg, @width: 200px, @txt-color:@white){
+.custom-btn(@bg-color:@button-bg, @width: 20rem, @txt-color:@white){
     display: flex;
     background-color: @bg-color;
     margin: 0 10px 20px;
     cursor: pointer;
     width: @width;
-    height: 45px;
+    height: 5rem;
     align-items: center;
     justify-content: center;
     font-size: 2rem;
@@ -18,12 +18,10 @@
       color: @bg-color;
     }
   
-    // @media @phone{
-    //     width: 90%;
-    //     height: 50px;
-    //     font-size: 2.5rem;
-    //     background-color:green;
-    // }
+    @media @mobile{
+        width: 90%;
+        height: 50px;
+    }
   
     // @media( max-width: 400px ) {
     //     background: green;
